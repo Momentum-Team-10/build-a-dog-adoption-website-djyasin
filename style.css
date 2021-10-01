@@ -25,9 +25,6 @@ h1 {color: white;}
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-
-
-
 }
 
 .traits {
@@ -68,6 +65,7 @@ li{
 
 .card3 img {
     width: 20rem;
+    flex-shrink: 3;
 }
 
 .card4 img {
@@ -110,18 +108,21 @@ li{
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    align-items: stretch;
 
 }
 .card1footer img {
     width: 25rem;
     flex-shrink: 3;
-    margin
+    height: 20rem;
 }
 .card2footer img {
     width: 25rem;
     flex-shrink: 3;
+    height: 20rem;
 }
 .card3footer img {
     width: 25rem;
     flex-shrink: 3;
+    height: 20rem;
 }
