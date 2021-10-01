@@ -12,10 +12,6 @@ h1 {color: white;}
     max-width: 1200px;
 
 }
- .card {
-
- }
-
 
 .traits {
     display: flex;
@@ -55,7 +51,6 @@ li{
 .card2 img {
     width: 15rem;
 }
-
 .card3 {
     grid-column: 3;
     grid-row: 1;
@@ -103,12 +98,5 @@ li{
     grid-row: 1;
 }
 .card9 img {
-    width: 15rem;
-}
-.card10 {
-    grid-column: 3;
-    grid-row: 1;
-}
-.card10 img {
     width: 15rem;
 }
