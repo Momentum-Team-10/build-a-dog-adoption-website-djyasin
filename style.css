@@ -109,14 +109,13 @@ li{
     margin-top: 20px;
     margin-bottom: 20px;
     align-items: stretch;
-
 }
 
 .card1footer img {
     width: 25rem;
     flex-shrink: 3;
     height: 20rem;
-    opacity: 50%; 
+    opacity: 50%;
 }
 .card2footer img {
     width: 25rem;
