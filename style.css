@@ -3,8 +3,16 @@
     margin: 0;
 }
 body { margin: 0; }
-header { background-color: #004175; }
+header { 
+    background-color: #004175;
+    padding: 30px;
+    padding-left: 65px;
+    border-bottom: 4px solid #89deef;
+ }
 h1 {color: white;}
+.adopttext {
+    margin: 20px;
+}
 
  .playingmatt {
     display: grid;
