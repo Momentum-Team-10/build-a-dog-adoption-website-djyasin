@@ -112,23 +112,57 @@ footer {
     font-family: Oswald, sans-serif;
     font-size: 50px;
     color: white;
-
+    font-weight: 100;
+    grid-column: auto;
 }
 .card1footer {
     background-image: url('starter_files/images/donate.jpg');
     background-size: cover;
     width: 400px;
-    opacity: 50%
+    opacity: 50%;
+    grid-column: 1;
+    z-index: 1;
+
 }
+
 .card2footer {
     background-image: url('starter_files/images/volunteer.jpg');
     background-size: cover;
     width: 400px;
     opacity: 50%;
+    grid-column: 2;
+    z-index: 1;
+
+
 }
+
 .card3footer {
     background-image: url('starter_files/images/location.png');
     background-size: cover;
     width: 400px;
     opacity: 50%;
+    grid-column: 3;
+    z-index: 1;
+
+}
+
+
+.footertext1 {
+justify-content: center;
+width: 400px;
+grid-column: 1;
+z-index: 2;
+}
+
+.footertext2 {
+justify-content: center;
+width: 400px;
+grid-column: 2;
+z-index: 2;
+}
+.footertext3 {
+justify-content: center;
+width: 400px;
+grid-column: 3;
+z-index: 2;
 }
